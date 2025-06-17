@@ -32,23 +32,23 @@ export function HeroSection() {
         >
           {/* Top Row */}
           <div className="hidden sm:block rounded-2xl overflow-hidden bg-gray-200 lg:col-span-1 lg:row-span-2 flex items-center justify-center bg-[url('/hero1.png')] bg-center bg-no-repeat bg-cover" />
-          <div className="rounded-2xl bg-[#3B5CCC] text-white p-8 flex flex-col justify-end lg:col-span-1 lg:row-span-1">
+          <div className="rounded-2xl bg-[#3B5CCC] text-white p-6 flex flex-col justify-end lg:col-span-1 lg:row-span-1">
             <h3 className="text-2xl font-semibold mb-2">Boost Your Buying Power</h3>
             <p className="text-base">Unlock extended payment terms and improved cash flow without adding complexity to your process.</p>
           </div>
-          <div className="rounded-2xl bg-[#3B5CCC] text-white p-8 flex flex-col justify-end lg:col-span-1 lg:row-span-1">
+          <div className="rounded-2xl bg-[#3B5CCC] text-white p-6 flex flex-col justify-end lg:col-span-1 lg:row-span-1">
             <h3 className="text-2xl font-semibold mb-2">Smart Purchasing, Simplified</h3>
             <p className="text-base">Automate approvals, track budgets, and place orders in seconds—no more chasing down receipts or emails.</p>
           </div>
           <div className="hidden sm:block rounded-2xl overflow-hidden bg-gray-200 lg:col-span-1 lg:row-span-2 flex items-center justify-center bg-[url('/hero2.png')] bg-center bg-no-repeat bg-cover" />
           <div className="hidden sm:block rounded-2xl overflow-hidden bg-gray-200 lg:col-span-1 lg:row-span-1 flex items-center justify-center bg-[url('/hero3.png')] bg-center bg-no-repeat bg-cover" />
-          <div className="rounded-2xl bg-[#3B5CCC] text-white p-8 flex flex-col justify-end lg:col-span-1 lg:row-span-2">
+          <div className="rounded-2xl bg-[#3B5CCC] text-white p-6 flex flex-col justify-end lg:col-span-1 lg:row-span-2">
             <h3 className="text-2xl font-semibold mb-2">Financial Control Built In</h3>
             <p className="text-base">Set custom rules, spending limits, and alerts to make sure every dollar is working smarter, not harder.</p>
           </div>
 
           {/* Second Row */}
-          <div className="rounded-2xl bg-[#5CA8FF] text-white p-8 flex flex-col justify-end lg:col-span-2 lg:row-span-1">
+          <div className="rounded-2xl bg-[#5CA8FF] text-white p-6 flex flex-col justify-end lg:col-span-2 lg:row-span-1">
             <h3 className="text-2xl font-semibold mb-2">Clarity Across Every Location</h3>
             <p className="text-base">Gain full visibility into spend, vendor usage, and compliance across your entire portfolio.</p>
           </div>
