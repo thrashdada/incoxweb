@@ -1,6 +1,4 @@
-import type { NextConfig } from "next";
-
-const nextConfig: NextConfig = {
+const nextConfig = {
   images: {
     remotePatterns: [
       {
@@ -21,7 +19,6 @@ const nextConfig: NextConfig = {
       },
     },
   },
-  // Ensure proper handling of Sanity Studio
   async rewrites() {
     return [
       {
@@ -32,4 +29,4 @@ const nextConfig: NextConfig = {
   },
 };
 
-export default nextConfig;
+module.exports = nextConfig; 
