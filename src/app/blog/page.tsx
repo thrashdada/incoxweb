@@ -144,13 +144,13 @@ export default async function BlogPage() {
                 {posts.map((post: any) => (
                   <article key={post._id} className="bg-gray-900 rounded-lg border border-gray-800 overflow-hidden hover:shadow-lg hover:shadow-blue-500/10 transition-shadow">
                     {post.mainImage && (
-                      <div className="aspect-video overflow-hidden">
+                      <Link href={`/blog/${post.slug.current}`} className="block aspect-video overflow-hidden">
                         <img
                           src={urlFor(post.mainImage).width(600).height(400).url()}
                           alt={post.mainImage.alt || post.title}
                           className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
                         />
-                      </div>
+                      </Link>
                     )}
                     
                     <div className="p-6">

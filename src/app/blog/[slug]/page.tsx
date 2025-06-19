@@ -8,11 +8,7 @@ import { CalendarDays, Clock, User, ArrowLeft, Share2, Facebook, Twitter, Linked
 import { PortableText } from '@portabletext/react'
 import { Footer } from '@/components/Footer'
 
-interface Props {
-  params: { slug: string }
-}
-
-export async function generateMetadata({ params }: Props): Promise<Metadata> {
+export async function generateMetadata({ params }: { params: { slug: string } }): Promise<Metadata> {
   const post = await client.fetch(
     groq`*[_type == "post" && slug.current == $slug][0] {
       title,
@@ -80,7 +76,7 @@ const relatedPostsQuery = groq`
   }
 `
 
-export default async function BlogPost({ params }: Props) {
+export default async function BlogPost({ params }: { params: { slug: string } }) {
   const post = await client.fetch(postQuery, { slug: params.slug })
   const relatedPosts = await client.fetch(relatedPostsQuery, { slug: params.slug })
 
