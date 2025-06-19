@@ -8,6 +8,7 @@ import { TestimonialSection } from "@/components/TestimonialSection";
 import { FullWidthCTASection } from "@/components/FullWidthCTASection";
 import { Footer } from "@/components/Footer";
 import { SocialProofSection } from "@/components/SocialProofSection";
+import BlogPreview from "@/components/BlogPreview";
 import {
   NavigationMenu,
   NavigationMenuContent,
@@ -37,6 +38,7 @@ export default function Home() {
       <AlternatingFeatures />
       <FeaturedVideoSection />
       <TestimonialSection />
+      <BlogPreview />
       <FullWidthCTASection />
       <Footer />
     </>

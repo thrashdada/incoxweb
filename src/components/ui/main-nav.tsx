@@ -64,7 +64,7 @@ export default function MainNav() {
           </DropdownMenuTrigger>
           <DropdownMenuContent align="start">
             <DropdownMenuItem asChild>
-              <Link href="/resources/blog">Blog</Link>
+              <Link href="/blog">Blog</Link>
             </DropdownMenuItem>
             <DropdownMenuItem asChild>
               <Link href="/resources/docs">Documentation</Link>
@@ -151,7 +151,7 @@ export default function MainNav() {
                     Resources
                   </h3>
                   <div className="space-y-2">
-                    <Link href="/resources/blog" className="block py-2 hover:text-blue-600">
+                    <Link href="/blog" className="block py-2 hover:text-blue-600">
                       Blog
                     </Link>
                     <Link href="/resources/docs" className="block py-2 hover:text-blue-600">
